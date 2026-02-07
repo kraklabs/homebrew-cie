@@ -10,18 +10,18 @@ class Cie < Formula
   on_macos do
     on_arm do
       url "https://github.com/kraklabs/cie/releases/download/v0.7.1/cie_v0.7.1_darwin_arm64.tar.gz"
-      sha256 "43fa928e878e22a6c0066584667f44f0883988b7c23287c7712ded84a901e6ed"
+      sha256 "df4b1ef8cde9c227aa9dc2772e864838b6e4a9f4fac25d75c4f7b9b4104a8e83"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kraklabs/cie/releases/download/v0.7.1/cie_v0.7.1_linux_amd64.tar.gz"
-      sha256 "cb48542a51ea34a8c3a7b1db7146de5f9bd3a69de5bfa550c25965b89d437dc7"
+      sha256 "d08f126fd63ba6598f666c59604b89d6c34984f25ef7cb5c134f2533dfd976de"
     end
     on_arm do
       url "https://github.com/kraklabs/cie/releases/download/v0.7.1/cie_v0.7.1_linux_arm64.tar.gz"
-      sha256 "36f0c693c1818427aaea48809360334e0af52ec2a823260b708ca5b5e5405251"
+      sha256 "962df177110da890035cc200a0060b32be84e3d6a577755cef37452e3a40d520"
     end
   end
 
