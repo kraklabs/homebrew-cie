@@ -4,24 +4,24 @@
 class Cie < Formula
   desc "Code Intelligence Engine - semantic search and call graph analysis"
   homepage "https://github.com/kraklabs/cie"
-  version "0.7.0"
+  version "0.7.1"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/kraklabs/cie/releases/download/v0.7.0/cie_v0.7.0_darwin_arm64.tar.gz"
-      sha256 "e7c240bfe222db329b907b32de0ba7e7201723a517e507e678b8329c0ce01248"
+      url "https://github.com/kraklabs/cie/releases/download/v0.7.1/cie_v0.7.1_darwin_arm64.tar.gz"
+      sha256 "43fa928e878e22a6c0066584667f44f0883988b7c23287c7712ded84a901e6ed"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/kraklabs/cie/releases/download/v0.7.0/cie_v0.7.0_linux_amd64.tar.gz"
-      sha256 "08741dba5dbf68586f6faf550df98781fdaca5d8d42f7bc9218926d6dd07799c"
+      url "https://github.com/kraklabs/cie/releases/download/v0.7.1/cie_v0.7.1_linux_amd64.tar.gz"
+      sha256 "cb48542a51ea34a8c3a7b1db7146de5f9bd3a69de5bfa550c25965b89d437dc7"
     end
     on_arm do
-      url "https://github.com/kraklabs/cie/releases/download/v0.7.0/cie_v0.7.0_linux_arm64.tar.gz"
-      sha256 "f4f535d4864f7c112452ddf84556d002b72be9a45441670ae30bb4d5d5bee9ba"
+      url "https://github.com/kraklabs/cie/releases/download/v0.7.1/cie_v0.7.1_linux_arm64.tar.gz"
+      sha256 "36f0c693c1818427aaea48809360334e0af52ec2a823260b708ca5b5e5405251"
     end
   end
 
